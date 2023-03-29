@@ -15,16 +15,91 @@ let btndiv = document.getElementById("btndiv")
 let btnsum = document.getElementById("btnsum")
 let btnmult = document.getElementById("btnmult")
 let btnresult = document.getElementById("btnresult")
+let btnapagar = document.getElementById("btnapagar")
 
 // tela
 let numero = 0;
 
 
 
-btn1.addEventListener("click", function clique() {
-    let tela = document.getElementsByClassName("numero")
+btn1.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
     numero = 1;
-    tela.innerHTML = "1"
+    tela.innerHTML += "1"
+    console.log(numero)
+}
+)
+btn2.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 2;
+    tela.innerHTML += "2"
+    console.log(numero)
+}
+)
+btn3.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 3;
+    tela.innerHTML += "3"
+    console.log(numero)
+}
+)
+btn4.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 4;
+    tela.innerHTML += "3"
+    console.log(numero)
+}
+)
+btn5.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 5;
+    tela.innerHTML += "5"
+    console.log(numero)
+}
+)
+btn6.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 6;
+    tela.innerHTML += "6"
+    console.log(numero)
+}
+)
+btn7.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 7;
+    tela.innerHTML += "7"
+    console.log(numero)
+}
+)
+btn8.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 8;
+    tela.innerHTML += "8"
+    console.log(numero)
+}
+)
+btn9.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 9;
+    tela.innerHTML += "9"
+    console.log(numero)
+}
+)
+
+btn0.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 0;
+    tela.innerHTML += "0"
+    console.log(numero)
+}
+)
+
+
+btnapagar.addEventListener("click", function() {
+    let tela = document.getElementById("tela")
+    numero = 0;
+    tela.innerHTML = ""
+    console.log(numero)
 }
 )
 
